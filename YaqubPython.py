@@ -13,8 +13,8 @@ number1 = int(input())
 print("Enter your second number: ", end="")
 number2 = int(input())
 
-for i in range(0):
-    for j in range(0):
+for i in range(number1):
+    for j in range(number2):
         print("*", end="")
     print("*")
 
